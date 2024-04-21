@@ -16,7 +16,7 @@ const customStyles = {
 // Make sure to bind modal to your appElement (https://reactcommunity.org/react-modal/accessibility/)
 Modal.setAppElement("#root");
 
-const AddNewMovie = ({ handleAdd }) => {
+const ZidFilm = ({ handleAdd }) => {
   const [modalIsOpen, setIsOpen] = React.useState(false);
   const [name, setName] = useState("");
   const [image, setImage] = useState("");
@@ -36,7 +36,7 @@ const AddNewMovie = ({ handleAdd }) => {
     closeModal();
     setDate("");
     setImage("");
-    setRating(1);
+    setRating("3");
     setName("");
   };
   function openModal() {
@@ -91,4 +91,4 @@ const AddNewMovie = ({ handleAdd }) => {
   );
 };
 
-export default AddNewMovie;
+export default ZidFilm;

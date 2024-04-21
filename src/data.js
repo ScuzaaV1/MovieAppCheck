@@ -9,7 +9,7 @@ export const moviesData = [
   {
     id: Math.random(),
     image: "https://th.bing.com/th/id/OIP._4PIOhjZLWTfKJSWbNaxWQHaEK?rs=1&pid=ImgDetMain",
-    rating: 4,
+    rating: 2,
     name: "Fallujah",
     date: "Ramadan 2023",
   },

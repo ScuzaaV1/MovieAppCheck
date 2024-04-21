@@ -2,7 +2,7 @@ import "./App.css";
 import { useState } from "react";
 import { moviesData } from "./data";
 import MovieList from "./Components/MovieList";
-import AddNewMovie from "./Components/AddNewMovie";
+import ZidFilm from "./Components/ZidFilm";
 import Search from "./Components/Search";
 
 function App() {
@@ -30,7 +30,7 @@ function App() {
         
         
       />
-      <AddNewMovie handleAdd={handleAdd} />
+      <ZidFilm handleAdd={handleAdd} />
     </div>
   );
 }
